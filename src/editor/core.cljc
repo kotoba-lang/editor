@@ -4,7 +4,7 @@
    a consuming app supplies the UI (sliders, colour pickers) and the persistence.
    Same separation kotoba-lang/kuro uses for terminal sessions (portable data model;
    host provides the effects). See README for the full rationale."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ^:private max-depth 3)
 
