@@ -63,5 +63,5 @@ terminal sessions (portable data model; host provides the effects).
 ## Tests
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
